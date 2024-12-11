@@ -183,7 +183,7 @@
     <div class="header">
         <h1>ABU MUSA MOLLA</h1>
         <img src="https://i.ibb.co/5FZ6HmM/12559876.png" alt="Verification Logo">
-        <div class="subtext">🔴Deactive</div>
+        <div class="subtext">🟢Active</div>
     </div>
 
     <div class="product-list">
@@ -351,7 +351,7 @@ function verifyPayment() {
         if (transactionId === '73BV6T3O') {
             alert(`Successful , ${carromUserId} ←এই আইডিতে প্রডাক্ট চলে গেছে চেক করে দেখুন`); // Carrom User ID সহ মেসেজ প্রদর্শন
         } else {
-            alert("Please turn on your website !");
+            alert("Balance low !");
         }
         document.getElementById('paymentForm').classList.remove('active');
         const products = document.querySelectorAll('.product-list .product');
